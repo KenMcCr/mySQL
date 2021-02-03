@@ -24,3 +24,7 @@ VALUES
 ('The Rational Male ',10012013 , 'Rollo Tomassi'),
 
 ('Mastery ',02011992 , 'George Leonard');
+
+DELETE FROM book WHERE title='The 48 Laws of Power';
+
+SELECT * from book
