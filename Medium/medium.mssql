@@ -1,0 +1,1 @@
+-- Create a table with your top 10 movies. Include title, release date, and rating Create a query that pulls all movies, in order of release date, where the title includes the letter “s”.

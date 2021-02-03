@@ -1,0 +1,26 @@
+--  Create a table with your top five favorite books with Title, Publish Date, and
+-- Author First/Last Name Create a query to add in two new books Remove the oldest book Provide an additional query giving the sum of all books
+
+CREATE DATABASE Books;
+
+USE Books;
+
+CREATE TABLE book ( title VARCHAR (255), publish_date INT, author_name VARCHAR (255));
+
+INSERT INTO book (book.title, book.publish_date, book.author_name)
+VALUES 
+('Think and Grow Rich',08182005 , 'Napoleon Hill'),
+
+('The 48 Laws of Power', 09012000 , 'Robert Greene'),
+
+('The 4 Hour Workweek',12152009 , 'Timothy Ferriss'),
+
+('The Way of The Superior Man',02012017 ,'David Deida'),
+
+('The Richest Man in Babylon',11192018 , 'George S Clason');
+
+INSERT INTO book (book.title, book.publish_date, book.author_name)
+VALUES
+('The Rational Male ',10012013 , 'Rollo Tomassi'),
+
+('Mastery ',02011992 , 'George Leonard');

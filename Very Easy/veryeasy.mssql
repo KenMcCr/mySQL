@@ -1,0 +1,26 @@
+CREATE DATABASE Cars;
+
+USE Cars;
+
+CREATE TABLE car ( make VARCHAR (255), model VARCHAR (255), YEAR INT );
+
+INSERT INTO car (car.make, car.model, car.year)
+VALUES 
+('Mercedes-Benz', 'AMG GT63', 2020),
+
+('Audi', 'R8', 2021),
+
+('Tesla', 'Cybertruck', 2021),
+
+
+SELECT * from car;
+
+Insert INTO car (car.make, car.model, car.year)
+VALUES 
+('Porscche', 'GT3', 2021),
+
+('Lamborghini', 'Urus', 2021),
+
+
+
+-- Create a table with your top three cars and include make, model, year. Create a query to add in two more cars
